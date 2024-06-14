@@ -1,0 +1,27 @@
+:root {
+   --color-bg: #121111;
+   --color-bg-light: #f8f5f2;
+   --color-text-light: #f0f8ff;
+   --color-text-dark: #121111;
+   --color-border-light: #f0f8ff;
+   --color-border-dark: #121111;
+}
+
+body{
+   background: #f0f8ff;
+   margin: 0;
+   padding: 0;
+   font-family: "Inter", sans-serif;
+   font-size: 16px;
+   line-height: 26px;
+   font-weight: 500;
+   color: var(--color-text-light);
+   background-color: #242424;
+   background-position: top center;
+   background-repeat: no-repeat;
+}
+
+a {
+   text-decoration: none;
+   color: var(--color-text-light);
+} 

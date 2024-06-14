@@ -1,0 +1,96 @@
+/* Навигация главной страницы*/
+.header{
+   background-color: var(--color-bg);
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+}
+
+.header__wrapper {
+   display: flex;
+   max-width: calc(1440px - 160px);
+   height: 65px;
+   margin: 0 auto;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 80px;
+}
+
+.header__logo {
+   padding: 10px 0px;
+}
+
+.navigation-site {
+   list-style: none;
+   display: flex;
+   margin: 0;
+   padding: 0;
+   gap: 3px;
+}
+
+.navigation-site__item {
+   padding: 12px 20px;
+   border-radius: 20px;
+   border-style: solid;
+   border-color: transparent;
+   border-width: 1px;
+}
+
+.navigation-user__authorization {
+   padding: 12px 20px;
+   border-radius: 20px;
+   border-style: solid;
+   border-color: #f0f8ff;
+   border-width: 1px;
+}
+
+.navigation-site a,
+.navigation-user a {
+   color: #f0f8ff;
+   font-size: 14px;
+}
+
+.navigation-site a:hover,
+.navigation-site a:focus,
+.navigation-user a:hover,
+.navigation-user a:focus{
+   background-color: transparent;
+   border-style: solid;
+   border-color: #f0f8ff;
+   border-width: 1px;
+}
+
+/* Логотип меню */
+.header-logo img{ 
+   align-items: center;
+   padding-top: 30px;
+   padding-bottom: 89px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.header__mobile-navigation {
+   display: none;
+   background: none;
+   border: none;
+}
+
+/* Адаптивная верстка */
+
+@media (max-width: 1024px) {
+   .navigation-user {
+      display: none;
+   }
+
+   .header__mobile-navigation {
+      display: block;
+      cursor: pointer;
+      padding: 0;
+   }
+
+   .navigation-site {
+      display: none;
+   }
+}
