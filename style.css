@@ -233,17 +233,19 @@ p {
 .menu-conteiner p,time{
    margin: 0;
    padding-left: 40px;
-
 }
 
 .container-datetime{
    display: flex;
-   gap: 45px;
+   gap: 20px;
 }
 
 .container-datetime input{
-   width: 144px;
-   height: 40px;
+   width: 150px;
+   height: 35px;
+   color: var(--color-text-dark);
+   background-color: var(--color-bg-light);
+   border-radius: 10px;
 }  
 
 
