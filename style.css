@@ -7,6 +7,8 @@ h1, h2, h3 {
 h2, h3 {
    font-family: "Inter", sans-serif;
    font-size: 48px;
+   margin: 0;
+   line-height: 38px;
 }
 
 p {
@@ -131,8 +133,26 @@ p {
    padding: 0 80px;
 }
 
+.index-zapis-container {
+   padding: 80px 0;
+   max-width: 45%;
+}
+
 /* Кнопки */
 .button{
+   text-align: center;
+   color: var(--color-text-light);
+   vertical-align: middle;
+   background-color: transparent;
+   padding: 14px 28px;
+   border-radius: 30px;
+   border-style: solid;
+   border-color: var(--color-border-light);
+   border-width: 1px;
+}
+
+.button-long {
+   width: 310px;
    text-align: center;
    color: var(--color-text-light);
    vertical-align: middle;
@@ -147,6 +167,14 @@ p {
 .button:hover,
 .button:focus 
 .button:active {
+   width: 310px;
+   background:#ffffff;
+   color: var(--color-text-dark);
+}
+
+.button-long:hover,
+.button-long:focus 
+.button-long:active {
    background:#ffffff;
    color: var(--color-text-dark);
 }
@@ -154,11 +182,21 @@ p {
 .appoitment-item input {
    font: inherit;
    background-color: transparent;
-   border: 2px solid #121111;
+
 }
 
 .appoitment-item input:focus {
-   border-color: var(--color-border-dark);
+   border: none;
+}
+
+.appoitment-item select {
+   width: 310px;
+   height: 40px;
+   padding: 5px;
+   color: var(--color-text-light);
+   background-color: #222222;
+   font-size: 15px;
+   border: none;
 }
 
 .main-footer {
@@ -236,16 +274,17 @@ p {
 }
 
 .container-datetime{
-   display: flex;
    gap: 20px;
 }
 
 .container-datetime input{
-   width: 150px;
-   height: 35px;
-   color: var(--color-text-dark);
-   background-color: var(--color-bg-light);
-   border-radius: 10px;
+   width: 300px;
+   height: 30px;
+   padding: 5px;
+   color: var(--color-text-light);
+   background-color: #222222;
+   font-size: 15px;
+   border: none;
 }  
 
 
