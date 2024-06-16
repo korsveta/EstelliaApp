@@ -210,53 +210,6 @@ p {
    background-color: var(--color-bg);
 }
 
-
-.footer-contacts a {
-   color: var(--color-text-light);
-   text-decoration: underline;
-
-}
-
-.main-footer p{
-   margin-top: 0px;
-   margin-bottom: 22px;
-}
-
-.footer-contacts p{
-   margin: 0px;
-}
-
-.footer-contacts a:hover,
-.footer-contacts a:focus {
-   text-decoration: none;
-}
-
-.footer-social {
-   text-align: center;
-}
-
-.footer-social ul {
-   display: flex;
-   justify-content: space-around;
-   list-style: none;
-   padding: 0;
-   margin: 0px;
-}
-
-.socual-button {
-   color: var(--color-text-light);
-}
-
-.footer-copyright {
-   text-align: center;
-}
-
-.footer-copyright .button:hover, 
-.footer-copyright .button:focus {
-   color: var(--color-text-dark);
-   background-color: var(--color-bg-light);
-}
-
 .menu-conteiner{
    width: 50%; 
 }
