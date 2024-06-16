@@ -3,6 +3,7 @@
    top: 0;
    left: 0;
    width: 100%;
+   padding: 80px 0;
 }
 
 .main-footer-container {
@@ -53,4 +54,9 @@
 
 .socual-button {
    color: var(--color-text-light);
+}
+
+.footer-navigation a{
+   display: flex;
+   text-decoration: underline;
 }
