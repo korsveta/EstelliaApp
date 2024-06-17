@@ -311,9 +311,13 @@ p {
 
 .projects-list__location {
    display: flex;
+   align-items: center;
+   justify-content: start;
 }
 
 .projects-list__description {
    display: flex;
+   align-items: center;
+   justify-content: space-between;
 }
 
