@@ -299,6 +299,22 @@ p {
    justify-content: center;
 }
 
+.projects-container {
+   display: flex;
+   max-width: calc(1440px - 160px);
+   margin: 0 auto;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 80px;
+   background-color: var(--color-bg);
+}
 
+.projects-list__location {
+   display: flex;
+}
+
+.projects-list__description {
+   display: flex;
+}
 
 
