@@ -305,15 +305,13 @@ p {
    margin: 0 auto;
    justify-content: space-between;
    align-items: center;
-   padding: 80px 80px;
+   padding: 0px 80px 80px 80px;
    background-color: var(--color-bg);
-   gap: 10px;
+   gap: 20px;
 }
 
 .projects-list {
    background-color: #181818;
-   padding: 50px;
-   border-radius: 30px;
 }
 
 .projects-list__location {
@@ -328,6 +326,11 @@ p {
    justify-content: space-between;
 }
 
-.projects-list__img {
-   border-radius: 20px;
+.projects-list__container {
+   padding: 30px;
+}
+
+.projects-list__description-details {
+   display: flex;
+   align-items: center;
 }
