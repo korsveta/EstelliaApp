@@ -81,7 +81,20 @@
 /* Адаптивная верстка */
 
 @media (max-width: 1024px) {
+
+   .navigation-user_img {
+      display: none;
+   }
+
+}
+
+@media (max-width: 870px) {
+
    .navigation-user {
+      display: none;
+   }
+
+   .navigation-site {
       display: none;
    }
 
@@ -91,7 +104,4 @@
       padding: 0;
    }
 
-   .navigation-site {
-      display: none;
-   }
 }
