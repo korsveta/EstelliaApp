@@ -167,7 +167,6 @@ p {
 .button:hover,
 .button:focus 
 .button:active {
-   width: 310px;
    background:#ffffff;
    color: var(--color-text-dark);
 }
@@ -177,6 +176,7 @@ p {
 .button-long:active {
    background:#ffffff;
    color: var(--color-text-dark);
+   width: 310px;
 }
 
 .appoitment-item input {
@@ -318,6 +318,10 @@ p {
    display: flex;
    align-items: center;
    justify-content: start;
+}
+
+div.projects-list__location {
+   line-height: 20px;
 }
 
 .projects-list__description {

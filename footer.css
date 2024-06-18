@@ -60,3 +60,7 @@
    display: flex;
    text-decoration: underline;
 }
+
+.footer-navigation p {
+   margin: 0;
+}
