@@ -44,7 +44,15 @@
 }
 
 .footer-copyright {
-   text-align: center;
+   text-align: left;
+}
+
+.footer-copyright a{
+   text-decoration: underline;
+}
+
+.footer-copyright p{
+   margin: 0;
 }
 
 .footer-copyright .button:hover, 
