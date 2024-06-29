@@ -316,20 +316,23 @@ p {
    flex: 1 1 calc((1440px - 160px)/4);
 }
 
+
 .projects-list__location {
    display: flex;
    align-items: center;
    justify-content: start;
+   gap: 10px;
 }
 
-div.projects-list__location {
-   line-height: 20px;
+.projects-list__location__b {
+   margin: 0;
 }
 
 .projects-list__description {
    display: flex;
    align-items: center;
-   justify-content: space-between;
+   justify-content: left;
+   gap: 30px;
 }
 
 .projects-list__container {
@@ -339,6 +342,15 @@ div.projects-list__location {
 .projects-list__description-details {
    display: flex;
    align-items: center;
+   gap: 10px;
+}
+
+.projects-list__description-details p{
+   margin: 0;
+}
+
+.projects-list-button {
+   padding-top: 20px;
 }
 
 .reviews-container {
@@ -362,3 +374,4 @@ div.projects-list__location {
    text-decoration: underline;
    padding: 20px 0px;
 }
+
