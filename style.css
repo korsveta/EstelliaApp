@@ -356,7 +356,7 @@ p {
 .reviews-container {
    display: flex;
    margin: 0 auto;
-   padding: 0 80px;
+   padding: 80px 80px;
    max-width: calc(1440px - 160px);
    background-color: var(--color-bg);
 }
@@ -365,6 +365,8 @@ p {
    display: flex;
    gap: 40px;
    padding-bottom: 80px;
+   flex-wrap: wrap;
+   
 }
 
 .projects-list__a {
