@@ -369,6 +369,11 @@ p {
    
 }
 
+.reviews-description__div {
+   display: flex;
+   gap: 20px;
+}
+
 .projects-list__a {
    display: flex;
    justify-content: center;
